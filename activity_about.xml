@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.tetteh1568.breadblog.About">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                app:srcCompat="@drawable/s4"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:text="INTRODUCTION"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The Social Security and National Insurance Trust (SSNIT) is a statutory public Trust charged under the National Pensions Act, 2008 Act 766 with the administration of Ghana’s Basic National Social Security Scheme. Its mandate is to cater for the First Tier of the Three-Tier Pension Scheme. The Trust is currently the largest non-bank financial institution in Ghana.
+
+The primary responsibility of the Trust is to replace part of lost income of workers in Ghana due to Old Age, Invalidity or Death of a member where dependants receive lump sum payment. It is also responsible for the payment of Emigration benefit to a non-Ghanaian member who is leaving Ghana permanently.
+
+The Pension Scheme as administered by SSNIT has a registered membership of over 1,471, 564 million as at June 2018 with over 190,079 pensioners who regularly receive their monthly pensions from SSNIT."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE TRUST"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The Trust was established in 1972 under NRCD 127 to administer the National Social Security Scheme. Prior to 1972, the Scheme was administered jointly by the then Department of Pensions and the State Insurance Corporation.  The Trust administered the Social Security Scheme as a Provident Fund Scheme until 1991 when it was converted to a Social Insurance Pension Scheme then governed by the PNDC law 247. The scheme in Ghana was reformed by an Act of Parliament, Act 766 of 2008 and was implemented in January 2010 to replace all pension schemes in Ghana including Cap 30. In 2014, the National Pensions (Amendment) Act 883 was passed to amend portions of Act 766."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="VISION"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="“To be the model for the administration of Social Protection Schemes in Africa and beyond”."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="MISSION"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="“To provide income security for workers in Ghana through excellent business practices”."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Register employers and workers "
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Collect contributions "
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Manage records on members "
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Invest the funds of the Scheme "
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Process and pay benefits to eligible members and nominated dependants. "
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE CORE VALUES OF SSNIT"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Professionalism"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Leadership"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Integrity"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Customer Focus"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Commitment"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Innovation"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE CORE FUNCTIONS OF SSNIT"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Teamwork"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE BOARD OF TRUSTEES"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The Board of Trustees are responsible for the policy direction of SSNIT. The Trustees are made up of representation from government, employers and workers. It is constituted as follows:"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="1. A Chairperson"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="2. Two persons nominated by the President, at least one of whom is a woman"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="3. Two representatives of Employers’ Associations,"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="4. Four representatives of Organised Labour"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="5. One representative of the Ministry responsible for Finance not below the rank of a Director"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="6.One representative of the Security Services who is not a member of the Ghana Armed Forces "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="7.One representative of the National Pensioners’ Association and "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="8.The Director General of the Trust "
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The members of the Board of Trustees shall be appointed by the President in accordance with Article 70 of the 1992 Constitution"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="ADMINISTRATION"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The day-to-day administration of the Trust is headed by the Director General assisted by three (3) Deputy Director Generals (DDGs).
+
+There are seven (7) General Managers in charge of Investment and Development (IDD), General Counsel (GC), Finance, Operations, Administration and Human Resources (ADMIN/HR), Management Information Systems (MIS) and Benefits.  Other responsibilities under the Directorate include that of the Chief Actuary, the Chief Internal Auditor, the Company Secretary and the Corporate Affairs Manager."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE BRANCHES"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="The Branch activities include:"
+                android:textColor="#ef7215"
+                android:textSize="10dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Registration of employers and employees "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Collection and management of data on employers and employees"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Inspection of establishments and collection of contributions "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Distribution of contributor’s statement of accounts "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Assembling, processing and vetting of claim documents as well as payment of benefits "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Processing Student Loan Repayment "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Public Education on SSNIT Operations "
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="AREA OFFICES"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="The Area Offices exercise supervision over the Branches and carry out the following activities:"
+                android:textStyle="italic" />
+
+                <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+            android:text="* Co-ordinate operational activities between the Branches and Operations Coordinator at the Head Office"
+            android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text=" * Institute legal action against defaulting employers"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Collate accounting returns and reports from the Branches under them."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Organise Public Education on SSNIT Operations"
+                android:textStyle="italic" />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="OPERATIONS CO-ORDINATOR"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="12dp"
+            android:paddingTop="6dp"
+            android:text="RESPONSIBILITIES"
+            android:textColor="#ef7215"
+            android:textSize="10dp"
+            android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:paddingTop="5dp"
+                android:text="* To assist in the preparation of Divisional action plans."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* To assist in developing and implementing service designs which will satisfy customers."
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Evaluates and analyses reports from the various sections of the Operations Division and makes appropriate recommendations"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Collects, collates and analyses periodic Operations Reports for the  Board of Trustees."
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="* Monitors compliance with the Social Security Act by employers and employees."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="To provide input into the formulation of policies to improve operations and assists to implement them."
+
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="THE BASIC NATIONAL PENSION SCHEME (TIER-1)"
+                android:textColor="#ef7215"
+                android:textSize="20dp"
+                android:textStyle="bold|italic" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="National Pension Act (2008) Act 766"
+                android:textColor="#ef7215"
+                android:textSize="10dp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Act 766 makes provision for a contributory 3-Tier Pension Scheme and the establishment of a National Pensions Regulatory Authority (NPRA) to oversee the administration and management of the Pension Schemes. Under the Act, SSNIT is to manage the basic National Social Security Scheme referred to, as the 1st Tier of a contributory 3-Tier scheme.
+
+The other Tiers of the National Pensions Scheme are:"
+                android:textStyle="italic"/>
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+            android:text="*Tier 2 – A mandatory fully-funded and privately managed occupational scheme."
+            android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Tier 3 – A voluntary fully-funded and privately managed Provident Fund and Personal Pension Plan."
+                android:textStyle="italic" />
+
+
+
+                            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="12dp"
+                android:paddingTop="6dp"
+                android:text="Features of Act 766"
+                android:textColor="#ef7215"
+                android:textSize="10dp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="Mandatory for all workers in the formal sector and optional for self-employed."
+
+                android:textStyle="italic"
+                android:paddingTop="5dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Tier 1 – A mandatory basic contributory Social Security Scheme managed by SSNIT."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Tier 2 – A mandatory fully-funded and privately managed occupational scheme."
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="8dp"
+                android:text="*Tier 3 – A voluntary fully-funded and privately managed provident fund and personal pension plan"
+                android:textStyle="italic" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextAboutButtonClicked"
+                android:text="Read More..."
+                android:textAllCaps="true"
+                android:textColor="#ef7215"
+                android:paddingTop="30dp"
+                android:paddingLeft="120dp"
+                android:background="#fff"
+                android:textStyle="bold|italic"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dddd"
+    tools:context="com.tetteh1568.breadblog.PostActivity">
+
+    <ImageButton
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:padding="15dp"
+        android:cropToPadding="true"
+        android:src="@drawable/ic_action_camera"
+        android:id="@+id/imageSelect" />
+
+    <EditText
+        android:id="@+id/titleField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Title...."
+        android:textStyle="bold|italic"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/imageSelect"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/descField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Complaints and Suggestions...."
+        android:textStyle="bold|italic"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/titleField"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="500dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:background="#006FFF"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

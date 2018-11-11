@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EF7215"
+    tools:context="com.tetteh1568.breadblog.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:background="@drawable/s4"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:padding="4dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="19dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="2dp"
+                android:text="Login Portal"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="19dp"
+                android:drawablePadding="16dp"
+
+                android:paddingStart="10dp"
+                android:ems="10"
+                android:hint="Portal ID"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold|italic"
+                android:drawableStart="@drawable/ic_action_name"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/userPass"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_action_pas"
+                android:layout_marginTop="40dp"
+                android:drawablePadding="16dp"
+                android:ems="10"
+                android:hint="Password"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold|italic"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColorHint="#000000"
+                />
+
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:clickable="true"
+                android:padding="10dp"
+                android:text=" Login"
+                android:paddingTop="20sp"
+                android:textStyle="italic"
+                android:capitalize="characters"
+                android:textAllCaps="false"
+                android:onClick="signinButtonClicked"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+
+
+                android:clickable="true"
+                android:padding="10dp"
+                android:text=" Signup Here"
+                android:paddingTop="20sp"
+
+                android:textStyle="italic"
+                android:capitalize="characters"
+                android:textAllCaps="false"
+                android:onClick="signupLogButtonClicked"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*** Biometric Related Issues MUST be resolved at ANY of our branches"
+                android:textColor="@color/cardview_light_background"
+                android:textStyle="bold|italic"
+                android:textSize="15dp"
+
+                android:paddingTop="2mm"
+                android:paddingLeft="3dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

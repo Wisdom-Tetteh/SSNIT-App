@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.tetteh1568.breadblog.contact">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                app:srcCompat="@drawable/s4"
+
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_height="120dp"
+                android:background="@drawable/conta"/>
+
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:background="@mipmap/ic_web"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEBSITE"
+
+                android:textSize="20dp"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#EF7215"
+                android:textStyle="bold|italic"
+                android:paddingLeft="170dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="https://ssnit.org.gh"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:paddingLeft="90dp"
+                android:textStyle="bold|italic"
+                />
+
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:background="@mipmap/ic_callcenter"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT CENTRE NUMBER"
+
+                android:textSize="20dp"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#EF7215"
+                android:textStyle="bold|italic"
+                android:paddingLeft="70dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0302 611 622"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:paddingLeft="110dp"
+                android:textStyle="bold|italic"
+                />
+
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:background="@mipmap/ic_emaicenter"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+
+                android:textSize="20dp"
+                android:textAlignment="viewEnd"
+                android:textAllCaps="true"
+                android:textColor="#EF7215"
+                android:textStyle="bold|italic"
+                android:paddingLeft="170dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="contactcentre@ssnit.org.gh"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:paddingLeft="30dp"
+                android:textStyle="bold|italic"
+                />
+
+            <Button
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:background="@mipmap/ic_tollfree"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOLL FREE NUMBER(VODAFONE &amp; EXPRESSO)"
+
+                android:textSize="18dp"
+
+                android:textAllCaps="true"
+                android:textColor="#EF7215"
+                android:textStyle="bold|italic"
+                android:paddingLeft="18dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0800 1100 94"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:paddingLeft="110dp"
+                android:textStyle="bold|italic"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/map"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
